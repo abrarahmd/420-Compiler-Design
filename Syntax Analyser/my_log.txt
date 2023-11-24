@@ -1,0 +1,52 @@
+At line no: 0 type_specifier : INT 
+
+At line no: 0 type_specifier : INT 
+
+At line no: 0 parameter_list : type_specifier ID 
+
+bar
+
+At line no: 2 variable : ID 
+
+At line no: 2 factor : variable 
+
+a
+
+At line no: 2 unary_expression : factor 
+
+a
+
+At line no: 2 term : unary_expression 
+
+a
+
+At line no: 2 simple_expression : term 
+
+a
+
+At line no: 2 rel_expression : simple_expression 
+
+a
+
+At line no: 2 logic_expression : rel_expression 
+
+a
+
+At line no: 2 expression : logic_expression 
+
+a
+
+At line no: 2 statement : RETURN expression SEMICOLON 
+
+return a
+
+At line no: 2 statements : statement 
+
+return a
+
+At line no: 3 compound_statement : LCURL statements RCURL 
+
+return a
+
+At line no: 3 func_definition : type_specifier ID LPAREN parameter_list RPAREN compound_statement 
+

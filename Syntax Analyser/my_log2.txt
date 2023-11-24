@@ -1,0 +1,14 @@
+At line no: 0 type_specifier : INT 
+
+At line no: 0 declaration_list : ID 
+
+At line no: 0 declaration_list : declaration_list COMMA ID 
+
+x
+
+At line no: 0 declaration_list : declaration_list COMMA ID 
+
+x
+
+At line no: 0 var_declaration : type_specifier declaration_list SEMICOLON 
+
